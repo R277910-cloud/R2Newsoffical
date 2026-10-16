@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07111f"><meta name="description" content="R2 NEWS - أخبار كرة القدم المصرية والعالمية، نتائج ومباريات وانتقالات.">
+<title>R2 NEWS | أخبار الكرة لحظة بلحظة</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="topline"><div class="wrap top-inner"><span>⚽ منصة أخبار كرة القدم</span><span id="clock">أخبار الكرة لحظة بلحظة</span></div></div>
+<header class="header"><div class="wrap head-inner">
+<a class="brand" href="/"><span class="brand-mark">R2</span><span><b>R2 <i>NEWS</i></b><small>كل أخبار الكرة في مكان واحد</small></span></a>
+<button class="menu-btn" id="menuBtn" aria-label="فتح القائمة">☰</button>
+<nav id="nav"><a class="active" href="#home">الرئيسية</a><a href="#news" data-category="مصر">الكرة المصرية</a><a href="#news" data-category="عالمي">الكرة العالمية</a><a href="#matches">مباريات اليوم</a><a href="#transfers" data-category="انتقالات">الانتقالات</a></nav>
+<button class="admin-open" id="adminOpen">لوحة الإدارة ↗</button>
+</div></header>
+<div class="ticker"><div class="ticker-label">عاجل <span>●</span></div><div class="ticker-window"><div class="ticker-track" id="tickerTrack">أهلاً بك في R2 NEWS — تابع آخر أخبار كرة القدم المصرية والعالمية</div></div></div>
+<main class="wrap" id="home">
+<section class="hero-head"><div><div class="eyebrow"><span></span> عالم كرة القدم بين إيديك</div><h1>الملعب بيتكلم.<br><em>وإحنا ننقل لك.</em></h1><p>أحدث أخبار الكرة المصرية والعالمية، نتائج المباريات، وتحركات سوق الانتقالات في مكان واحد.</p></div><div class="hero-ball" aria-hidden="true">⚽</div></section>
+<section class="quick-links"><a href="#news" data-category="مصر"><b>🇪🇬</b><span>الكرة المصرية</span><small>الدوري والمنتخب</small></a><a href="#news" data-category="الدوري الإنجليزي"><b>🏴</b><span>الإنجليزي</span><small>Premier League</small></a><a href="#news" data-category="الدوري الإسباني"><b>🇪🇸</b><span>الإسباني</span><small>La Liga</small></a><a href="#news" data-category="دوري أبطال أوروبا"><b>🏆</b><span>أبطال أوروبا</span><small>ليالي الأبطال</small></a><a href="#news" data-category="انتقالات"><b>🔁</b><span>الانتقالات</span><small>رسمي وشائعات</small></a></section>
+<section class="content-grid"><div class="main-col">
+<div class="section-title" id="news"><div><span class="kicker">آخر المستجدات</span><h2>أحدث الأخبار <i>⚡</i></h2></div><span class="live-badge"><span></span> تحديث تلقائي</span></div>
+<div class="filters"><button class="filter active" data-filter="الكل">الكل</button><button class="filter" data-filter="مصر">مصر</button><button class="filter" data-filter="عالمي">عالمي</button><button class="filter" data-filter="الدوري الإنجليزي">الإنجليزي</button><button class="filter" data-filter="الدوري الإسباني">الإسباني</button><button class="filter" data-filter="انتقالات">الانتقالات</button><label class="search"><span>⌕</span><input id="search" placeholder="ابحث عن خبر أو فريق..."></label></div>
+<div class="news-grid" id="newsGrid"><div class="loading"><span class="spinner"></span> بنجهز آخر الأخبار...</div></div>
+<button class="more-btn" id="refreshBtn">↻ تحديث الأخبار الآن</button>
+<div class="section-title" id="matches"><div><span class="kicker">جدول المواجهات</span><h2>مباريات اليوم</h2></div></div>
+<div class="provider-note"><b>📅 مركز المباريات</b><p>سيظهر جدول المباريات والنتائج المباشرة عند ربط مزود بيانات رياضية. لم نعرض نتائج وهمية أو مواعيد غير مؤكدة.</p><span>جاهز للربط بمصدر بيانات موثوق</span></div>
+</div>
+<aside class="sidebar"><div class="side-card welcome-card"><span class="side-icon">⚽</span><span class="kicker">أهلاً بك في</span><h3>R2 <em>NEWS</em></h3><p>منصة رياضية تجمع أخبار مصر والعالم في تجربة عربية سريعة.</p><div class="side-stats"><div><b>24/7</b><small>متابعة</small></div><div><b>🌍</b><small>العالم كله</small></div></div></div>
+<div class="side-card"><div class="side-title"><h3>🏆 الأقسام</h3></div><div class="side-cats"><button data-category="مصر">🇪🇬 الكرة المصرية <span>←</span></button><button data-category="عالمي">🌍 الكرة العالمية <span>←</span></button><button data-category="الدوري الإنجليزي">🏴 الدوري الإنجليزي <span>←</span></button><button data-category="الدوري الإسباني">🇪🇸 الدوري الإسباني <span>←</span></button><button data-category="دوري أبطال أوروبا">🏆 دوري الأبطال <span>←</span></button><button data-category="انتقالات">🔁 سوق الانتقالات <span>←</span></button></div></div>
+<div class="side-card"><div class="side-title"><h3>📡 حالة الأخبار</h3><span class="status-dot"></span></div><p class="muted" id="statusText">جارٍ الاتصال بالسيرفر...</p><small class="muted">تختلف سرعة وصول الأخبار حسب المصدر.</small></div>
+<div class="side-ad"><span>R2</span><b>كرة القدم<br>أسلوب حياة</b><small>R2 NEWS</small></div>
+</aside></section>
+</main>
+<footer><div class="wrap footer-inner"><a class="brand" href="#"><span class="brand-mark">R2</span><span><b>R2 <i>NEWS</i></b><small>كل أخبار الكرة في مكان واحد</small></span></a><p>© <span id="year"></span> R2 NEWS — الأخبار تُنسب إلى مصادرها الأصلية.</p><a href="#home">العودة للأعلى ↑</a></div></footer>
+<div class="modal hidden" id="adminModal"><div class="modal-box"><button class="close" id="closeAdmin">×</button><div id="loginPane"><span class="kicker">إدارة المنصة</span><h2>لوحة تحكم R2</h2><p class="muted">سجّل الدخول لإدارة الأخبار والمصادر.</p><form id="loginForm"><label>اسم المستخدم<input name="username" required autocomplete="username"></label><label>كلمة المرور<input name="password" type="password" required autocomplete="current-password"></label><button class="gold-btn">تسجيل الدخول</button><p class="form-error" id="loginError"></p></form></div>
+<div id="adminPane" class="hidden"><div class="admin-head"><h2>إدارة الأخبار</h2><button id="logoutBtn" class="outline-btn">خروج</button></div><div class="admin-tabs"><button class="active" data-tab="write">إضافة خبر</button><button data-tab="pending">مراجعة الأخبار</button><button data-tab="sources">مصادر RSS</button></div>
+<div id="writeTab"><form id="newsForm"><label>عنوان الخبر<input name="title" required maxlength="300"></label><label>ملخص الخبر<textarea name="summary" rows="3"></textarea></label><label>رابط الصورة<input name="image_url" type="url" placeholder="https://..."></label><label>رابط المصدر<input name="source_url" type="url" placeholder="رابط الخبر الأصلي (اختياري)"></label><label>اسم المصدر<input name="source_name" value="R2 NEWS"></label><label>القسم<select name="category"><option>مصر</option><option>عالمي</option><option>الدوري الإنجليزي</option><option>الدوري الإسباني</option><option>الدوري الإيطالي</option><option>الدوري الألماني</option><option>دوري أبطال أوروبا</option><option>انتقالات</option></select></label><label class="check"><input type="checkbox" name="approved" checked> نشر الخبر فورًا</label><button class="gold-btn">حفظ الخبر</button><p class="form-error" id="newsError"></p></form></div>
+<div id="pendingTab" class="hidden"><button id="syncBtn" class="gold-btn">↻ جلب الأخبار الآن</button><div id="adminNewsList"></div></div>
+<div id="sourcesTab" class="hidden"><form id="sourceForm"><label>اسم المصدر<input name="name" placeholder="اسم المصدر"></label><label>رابط RSS<input name="url" type="url" required placeholder="https://example.com/feed.xml"></label><label>القسم<select name="category"><option>مصر</option><option>عالمي</option><option>الدوري الإنجليزي</option><option>الدوري الإسباني</option><option>انتقالات</option></select></label><button class="gold-btn">إضافة مصدر</button></form><p class="muted">أضف فقط مصادر تسمح شروطها بجلب وعرض بيانات الأخبار.</p><div id="sourcesList"></div></div></div></div></div>
+<div class="toast" id="toast"></div><script src="/app.js"></script>
+</body></html>
